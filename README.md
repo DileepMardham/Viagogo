@@ -11,12 +11,13 @@ Code for the project can be found below.
 
 Please use "Clone or download" button to download the whole project to your local machine and extract it.
 
-Once done, open the .sln file with Visual Studio. If you do not have Visual Studio, go to the following path in the extracted folder.
+Once done, open the .sln file with Visual Studio. Build and run the code using Visual Studio.
 
-> Viagogo\Viagogo\bin\Debug
+If you do not have Visual Studio, go to the following path in the extracted folder. This folder has 2 files, an executable file and a configuration file.
 
-Double-click on the 'Viagogo' application file. This will run the program. You can change the configuration in the 'Viagogo.exe.config' if you want.
+> Viagogo\Executable
 
+Double-click on the 'Viagogo' executable application file. This will run the program. You can change the configuration settings in the 'Viagogo.exe.config' if you want using any text editor.
 
 ### Assumptions Made
 
