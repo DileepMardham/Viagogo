@@ -1,7 +1,7 @@
 Viagogo Coding Challenge
 ------------------------
 
-This project was developed for the Viagogo Coding Challenge using C# using Visual Studio 2017
+This project was developed for Viagogo Coding Challenge using C# using Visual Studio 2017
 
 ## Building & running the code.
 
