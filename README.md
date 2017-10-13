@@ -30,7 +30,7 @@ Double-click on the 'Viagogo' application file. This will run the program. You c
 
 Each location in my application can support multiple events. The Min and Max for the number of events has to be set in the configuration file. To support multiple events, I simply used a list of events in the location class rather than having just a single event object as a property. And I modified all the other code used to search and display events at the 5 closest locations along with event informatio.
 
-## How would you change your program if you were working with a much larger world size?
+### How would you change your program if you were working with a much larger world size?
 
 Right now my program will support any world size as I am using a configuration file. If I develop a website or an application I would create a database to hold all the information and create a map of the world to show on the app or the website. We should ideally create an API that will interact with the database as well.
 
