@@ -15,7 +15,7 @@ Once done, open the .sln file with Visual Studio. Build and run the code using V
 
 If you do not have Visual Studio, go to the following path in the extracted folder. This folder has 2 files, an executable file and a configuration file.
 
-> Viagogo\Executable
+> Viagogo-master\Executable
 
 Double-click on the 'Viagogo' executable application file. This will run the program. You can change the configuration settings in the 'Viagogo.exe.config' if you want using any text editor. You need to change values and save the configuration file before you run the application.
 
