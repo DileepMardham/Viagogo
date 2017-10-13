@@ -17,7 +17,7 @@ If you do not have Visual Studio, go to the following path in the extracted fold
 
 > Viagogo\Executable
 
-Double-click on the 'Viagogo' executable application file. This will run the program. You can change the configuration settings in the 'Viagogo.exe.config' if you want using any text editor.
+Double-click on the 'Viagogo' executable application file. This will run the program. You can change the configuration settings in the 'Viagogo.exe.config' if you want using any text editor. You need to change values and save the configuration file before you run the application.
 
 ### Assumptions Made
 
