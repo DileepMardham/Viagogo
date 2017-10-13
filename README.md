@@ -5,7 +5,11 @@ This project was developed for Viagogo Coding Challenge using C# using Visual St
 
 ## Building & running the code.
 
-Please clone the whole project to your local machine and extract it.
+Code for the project can be found below.
+
+> https://github.com/DileepMardham/Viagogo
+
+Please use Clone or download button to download the whole project to your local machine and extract it.
 
 Once done open the .sln file with Visual Studio. If you do not have Visual Studio, go to the following path in the extracted folder.
 
