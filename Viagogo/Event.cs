@@ -12,14 +12,14 @@ namespace Viagogo
      */
     class Event
     {
-        private int id;
+        private long id;
         private List<Ticket> tickets = new List<Ticket>();
 
         internal List<Ticket> Tickets { get => tickets; set => tickets = value; }
-        public int Id { get => id; set => id = value; }
+        public long Id { get => id; set => id = value; }
 
         // Constructor for creating Event object
-        public Event(int id, List<Ticket> tickets)
+        public Event(long id, List<Ticket> tickets)
         {
             this.Id = id;
             this.Tickets = tickets;

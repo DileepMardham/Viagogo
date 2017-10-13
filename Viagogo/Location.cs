@@ -13,7 +13,7 @@ namespace Viagogo
      */ 
     class Location
     {
-        private int id;
+        private long id;
         private int positionX;
         private int positionY;
         List<Event> events = new List<Event>();
@@ -21,10 +21,10 @@ namespace Viagogo
         public int PositionX { get => positionX; set => positionX = value; }
         public int PositionY { get => positionY; set => positionY = value; }
         internal List<Event> Events { get => events; set => events = value; }
-        public int Id { get => id; set => id = value; }
+        public long Id { get => id; set => id = value; }
 
         // Constructor for creating Location object
-        public Location(int id, int posX, int posY, List<Event> events)
+        public Location(long id, int posX, int posY, List<Event> events)
         {
             this.Id = id;
             this.PositionX = posX;

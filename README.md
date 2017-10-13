@@ -9,9 +9,9 @@ Code for the project can be found below.
 
 > https://github.com/DileepMardham/Viagogo
 
-Please use Clone or download button to download the whole project to your local machine and extract it.
+Please use "Clone or download" button to download the whole project to your local machine and extract it.
 
-Once done open the .sln file with Visual Studio. If you do not have Visual Studio, go to the following path in the extracted folder.
+Once done, open the .sln file with Visual Studio. If you do not have Visual Studio, go to the following path in the extracted folder.
 
 > Viagogo\Viagogo\bin\Debug
 
@@ -20,10 +20,11 @@ Double-click on the 'Viagogo' application file. This will run the program. You c
 
 ### Assumptions Made
 
-1. Number of events at a location ranges from 1-2. The requirements asked to have only one event at a location, but I coded the program to handle multiple events at a single location.
+1. Number of events at a location ranges from 1-2. The requirement was to have only one event at a location, but I coded the program to handle multiple events at a single location.
 2. Number of tickets for one event is between 0 and 500.
 3. Price range for any ticket is between 10 and 2000 US dollars
 4. Added all the world ranges to the App.config file to make project more dynamic and manageble.
+5. Every event Id is a unique 6 digit number. The first 3 digits are the location number and the last 3 digits are the event number itself.
 
 ### How might you change your program if you needed to support multiple events at the same location?
 

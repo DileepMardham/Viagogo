@@ -49,7 +49,7 @@ namespace Viagogo
                 {
                     for (int j = 0; j < numEvents; j++)
                     {
-                        int Eid = j + 1;
+                        long Eid = Convert.ToInt64(Lid.ToString("D3") + (j + 1).ToString("D3"));
                         int numTickets = rand.Next(minNumTickets, maxNumTickets + 1);
                         List<Ticket> tickets = new List<Ticket>();
                         for (int k = 0; k < numTickets; k++)
